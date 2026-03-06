@@ -90,13 +90,7 @@ npm run dev
 npm run build
 ```
 
-## Disclaimer
 
-This project is copied from an existing task manager template and modified for collaborative features.
-
-The build output will be in the `dist` folder, ready to deploy to Netlify, Vercel, or Firebase Hosting.
-
----
 
 ## 📁 Project Structure
 
@@ -207,14 +201,6 @@ firebase deploy
 - ✅ Profile management
 - ✅ Custom task colors
 
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
 
 ---
 
@@ -222,11 +208,6 @@ firebase deploy
 
 This project is for personal use.
 
----
 
-## 👨‍💻 Built By
 
-EaseMyTask - A modern task management solution
 
-**Version:** 1.0.0  
-**Last Updated:** March 2026
