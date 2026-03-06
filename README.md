@@ -1,102 +1,98 @@
-# EaseMyTask - Task Manager App
+# Realtime Task Collaboration
 
-A modern, full-featured task management application built with React, Vite, and Firebase. Track your daily tasks, goals, and routines all in one place.
+A modern, collaborative task management application built with React, Vite, and Firebase. Manage your daily tasks, goals, and routines in real-time with team collaboration features.
 
-![EaseMyTask](https://img.shields.io/badge/Version-1.0.0-blue)
+![Realtime Task Collaboration](https://img.shields.io/badge/Version-1.0.0-blue)
 ![React](https://img.shields.io/badge/React-19-blue)
 ![Firebase](https://img.shields.io/badge/Firebase-Firestore-orange)
 
----
+## Features
 
-## 🌟 Features
+### Task Management
+- Create and manage tasks with titles, descriptions, dates, and times
+- Set priority levels: Low, Medium, High with color coding
+- Categorize tasks: Work, Personal, Health, etc.
+- Customize task colors
+- Set reminders and notifications
+- Link tasks to goals
+- Mark tasks as complete or delete them
 
-### 📋 Task Management
-- **Create Tasks** - Add tasks with title, description, date, and time
-- **Priority Levels** - Low, Medium, High priority with color coding
-- **Categories** - Organize tasks by Work, Personal, Health, etc.
-- **Custom Colors** - Personalize tasks with custom colors
-- **Reminders** - Set notification reminders for tasks
-- **Goal Linking** - Link tasks to specific goals
-- **Complete/Delete** - Mark tasks as complete or delete them
+### Goals
+- Define long-term goals with deadlines
+- Categorize goals: Personal, Work, Skill-Up, Health, Finance, Active
+- Track progress with visual progress bars (0-100%)
+- Add cover images to goals
+- Associate tasks with goals
 
-### 🎯 Goals
-- **Create Goals** - Set long-term objectives with deadlines
-- **Categories** - Personal, Work, Skill-Up, Health, Finance, Active
-- **Progress Tracking** - Visual progress bar (0-100%)
-- **Cover Images** - Add custom cover images to goals
-- **Link Tasks** - Associate tasks with goals
+### Routines
+- Establish recurring routines (daily/weekly)
+- Use templates like Morning Workout, Evening Wind Down, Deep Work Prep
+- Generate tasks from routines for specific days
+- Schedule routines for selected days
 
-### 🔄 Routines
-- **Create Routines** - Set up recurring daily/weekly routines
-- **Templates** - Quick start with Morning Workout, Evening Wind Down, Deep Work Prep
-- **Generate Tasks** - One-click to generate tasks from routines for any day
-- **Day Scheduling** - Select which days each routine applies
+### User Profile
+- Upload and manage profile photos
+- Update name and email
+- Switch between dark and light themes
+- Change passwords
 
-### 👤 User Profile
-- **Profile Photo** - Upload and manage avatar
-- **Name & Email** - Update personal information
-- **Dark/Light Mode** - Toggle between themes
-- **Password Change** - Update account password
+### Dashboard
+- View overview statistics: total, completed, pending tasks
+- See weekly tasks overview
+- Monitor active goals
+- Check completion rates
 
-### 📊 Dashboard
-- **Overview Stats** - Total, completed, pending task counts
-- **Weekly Tasks** - View this week's tasks at a glance
-- **Active Goals** - Track ongoing goals
-- **Completion Rate** - See your productivity percentage
+### Views
+- **Today**: Tasks for the current day
+- **Upcoming**: Future tasks in calendar view
+- **Calendar**: Monthly calendar with task indicators
 
-### 📅 Additional Views
-- **Today** - All tasks for today
-- **Upcoming** - Future tasks calendar view
-- **Calendar** - Monthly calendar with task indicators
+## Tech Stack
 
----
+- **Frontend**: React 19
+- **Build Tool**: Vite
+- **Database**: Firebase Firestore (real-time)
+- **Authentication**: Firebase Auth (Email + Google)
+- **Styling**: Tailwind CSS
+- **Routing**: React Router
+- **State Management**: React Context
 
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| React 19 | Frontend framework |
-| Vite | Build tool & dev server |
-| Firebase Firestore | Database (real-time) |
-| Firebase Authentication | User auth (Email + Google) |
-| Tailwind CSS | Styling |
-| React Router | Navigation |
-| React Context | State management |
-
----
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
-- Node.js 18+ installed
+- Node.js 18 or higher
 - Firebase account
 
 ### Installation
 
 ```bash
-# Clone the repository
-cd task-manneger-app/task-manager
+# Navigate to the project directory
+cd realtime_task_collab/task-manager
 
 # Install dependencies
 npm install
 
-# Start development server
+# Start the development server
 npm run dev
 ```
 
-### Firebase Setup
+### Firebase Configuration
 
-1. Go to [Firebase Console](https://console.firebase.google.com)
+1. Visit [Firebase Console](https://console.firebase.google.com)
 2. Create a new project
-3. Enable **Authentication** (Email/Password + Google)
-4. Enable **Firestore Database**
-5. Copy your config to `src/firebase/config.js`
+3. Activate Authentication (Email/Password and Google)
+4. Activate Firestore Database
+5. Copy your configuration to `src/firebase/config.js`
 
-### Build for Production
+### Production Build
 
 ```bash
 npm run build
 ```
+
+## Disclaimer
+
+This project is copied from an existing task manager template and modified for collaborative features.
 
 The build output will be in the `dist` folder, ready to deploy to Netlify, Vercel, or Firebase Hosting.
 
